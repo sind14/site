@@ -39,7 +39,7 @@ function checkNumber2(number){
     let thirdNumber =  checkNumber2(orderNumber.value);
     let katalogName = firstNumber + "_" + secondNumber + "_" + thirdNumber;
     console.log(katalogName);
-    xhr.open("POST", `serverAdress/${katalogName}`, true);
+    xhr.open("POST", `https://sind14.github.io/site/${katalogName}`, true);
     console.log(file);
     xhr.send(file);
   
